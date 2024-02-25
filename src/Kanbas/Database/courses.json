@@ -1,0 +1,9 @@
+[
+    { "_id": "EECE2322", "name": "Digital Design", "number": "EECE2322", "startDate": "2024-01-10", "endDate": "2024-05-15", "image": "circuits.jpg" },
+    { "_id": "MATH1234", "name": "Statistics", "number": "MATH1234", "startDate": "2024-01-10", "endDate": "2024-05-15", "image": "stats.jpg" },
+    { "_id": "CS3500", "name": "Objected Oriented Design", "number": "CS3500", "startDate": "2024-01-10", "endDate": "2024-05-15", "image": "java.jpg" },
+    { "_id": "CS3600", "name": "Computer Systems : Linux", "number": "CS3600", "startDate": "2024-02-05", "endDate": "2024-06-20", "image": "linux.jpg" },
+    { "_id": "CS4500", "name": "React Development", "number": "CS4500", "startDate": "2024-02-15", "endDate": "2024-07-01", "image": "reactjs.jpg" },
+    { "_id": "ROBO2024", "name": "Robotics Fundamentals", "number": "ROBO2024", "startDate": "2024-03-01", "endDate": "2024-08-15", "image": "robot.jpg" },
+    { "_id": "CS1000", "name": "Database Design", "number": "CS1000", "startDate": "2024-03-10", "endDate": "2024-08-25", "image": "sql.jpg" }
+  ]

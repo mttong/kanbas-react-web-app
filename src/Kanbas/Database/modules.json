@@ -1,0 +1,568 @@
+[
+    {
+        "_id": "MEECE2322BA",
+        "name": "Boolean Arithmetic and Logic",
+        "description": "Understanding the principles of Boolean algebra and its application in digital logic design.",
+        "course": "EECE2322",
+        "lessons": [
+          {
+            "_id": "LEECE2322BA01",
+            "name": "Fundamentals of Boolean Algebra",
+            "description": "An introduction to Boolean algebra and its axioms and theorems.",
+            "module": "MEECE2322BA"
+          },
+          {
+            "_id": "LEECE2322BA02",
+            "name": "Logic Gates and Combinational Logic",
+            "description": "Exploring the basic logic gates and how they are used to build combinational logic circuits.",
+            "module": "MEECE2322BA"
+          },
+          {
+            "_id": "LEECE2322BA03",
+            "name": "Boolean Functions and Minimization Techniques",
+            "description": "Techniques for expressing and minimizing Boolean functions, including Karnaugh maps and Quine-McCluskey method.",
+            "module": "MEECE2322BA"
+          }
+        ]
+      }, 
+
+    {
+        "_id": "MEECE2322",
+        "name": "Advanced Digital Design Techniques",
+        "description": "Exploring advanced concepts in digital design including FPGAs and ASICs.",
+        "course": "EECE2322",
+        "lessons": [
+          {
+            "_id": "LEECE232201",
+            "name": "FPGA Fundamentals",
+            "description": "An introduction to field-programmable gate arrays and their applications.",
+            "module": "MEECE2322"
+          },
+          {
+            "_id": "LEECE232202",
+            "name": "ASIC Design Flow",
+            "description": "Understanding the design flow for application-specific integrated circuits.",
+            "module": "MEECE2322"
+          },
+          {
+            "_id": "LEECE232203",
+            "name": "Digital Signal Processing",
+            "description": "Basics of digital signal processing in digital design.",
+            "module": "MEECE2322"
+          }
+        ]
+      }, 
+
+      {
+        "_id": "MEECE2322SV",
+        "name": "SystemVerilog for Digital Design",
+        "description": "An in-depth exploration of SystemVerilog for hardware modeling and simulation.",
+        "course": "EECE2322",
+        "lessons": [
+          {
+            "_id": "LEECE2322SV01",
+            "name": "Introduction to SystemVerilog",
+            "description": "Foundational concepts of SystemVerilog and its applications in digital design.",
+            "module": "MEECE2322SV"
+          },
+          {
+            "_id": "LEECE2322SV02",
+            "name": "SystemVerilog for Synthesis",
+            "description": "Using SystemVerilog for hardware synthesis, with a focus on synthesizable constructs.",
+            "module": "MEECE2322SV"
+          },
+          {
+            "_id": "LEECE2322SV03",
+            "name": "SystemVerilog Testbenches",
+            "description": "Creating effective testbenches in SystemVerilog to validate hardware designs.",
+            "module": "MEECE2322SV"
+          }
+        ]
+      }, 
+
+    
+        {
+          "_id": "MMATH1234MGF",
+          "name": "Moment Generating Functions",
+          "description": "Deep dive into the moment generating functions and their applications in probability theory.",
+          "course": "MATH1234",
+          "lessons": [
+            {
+              "_id": "LMATH1234MGF01",
+              "name": "Understanding MGFs",
+              "description": "Introduction to moment generating functions and their properties.",
+              "module": "MMATH1234MGF"
+            },
+            {
+              "_id": "LMATH1234MGF02",
+              "name": "Applications of MGFs",
+              "description": "How MGFs are used to determine moments and derive distributions.",
+              "module": "MMATH1234MGF"
+            },
+            {
+              "_id": "LMATH1234MGF03",
+              "name": "MGFs and Characteristic Functions",
+              "description": "Comparing moment generating functions with characteristic functions.",
+              "module": "MMATH1234MGF"
+            }
+          ]
+        },
+        {
+          "_id": "MMATH1234CHI",
+          "name": "Chi-Squared Distribution",
+          "description": "Exploration of the chi-squared distribution and its significance in hypothesis testing.",
+          "course": "MATH1234",
+          "lessons": [
+            {
+              "_id": "LMATH1234CHI01",
+              "name": "Fundamentals of Chi-Squared Distribution",
+              "description": "Basics of chi-squared distribution and its probability density function.",
+              "module": "MMATH1234CHI"
+            },
+            {
+              "_id": "LMATH1234CHI02",
+              "name": "Chi-Squared Tests",
+              "description": "Utilizing chi-squared tests for goodness of fit and independence in categorical data.",
+              "module": "MMATH1234CHI"
+            },
+            {
+              "_id": "LMATH1234CHI03",
+              "name": "Degrees of Freedom in Chi-Squared Tests",
+              "description": "Understanding the concept of degrees of freedom in the context of chi-squared tests.",
+              "module": "MMATH1234CHI"
+            }
+          ]
+        },
+        {
+          "_id": "MMATH1234ANOVA",
+          "name": "Analysis of Variance (ANOVA)",
+          "description": "Study of ANOVA techniques for comparing means across multiple groups.",
+          "course": "MATH1234",
+          "lessons": [
+            {
+              "_id": "LMATH1234ANOVA01",
+              "name": "Introduction to ANOVA",
+              "description": "Overview of ANOVA and its role in statistical analysis.",
+              "module": "MMATH1234ANOVA"
+            },
+            {
+              "_id": "LMATH1234ANOVA02",
+              "name": "One-Way ANOVA",
+              "description": "Detailed examination of one-way ANOVA for analyzing differences between group means.",
+              "module": "MMATH1234ANOVA"
+            },
+            {
+              "_id": "LMATH1234ANOVA03",
+              "name": "Two-Way ANOVA",
+              "description": "Exploring two-way ANOVA for understanding interactions between factors.",
+              "module": "MMATH1234ANOVA"
+            }
+          ]
+        }
+    
+        ,
+            {
+              "_id": "MCS3500MOD",
+              "name": "MVC: Model Component",
+              "description": "In-depth exploration of the Model component in the MVC architecture pattern.",
+              "course": "CS3500",
+              "lessons": [
+                {
+                  "_id": "LCS3500MOD01",
+                  "name": "Understanding the Model",
+                  "description": "Introduction to the Model component, its responsibilities, and how it manages the data, logic, and rules of the application.",
+                  "module": "MCS3500MOD"
+                },
+                {
+                  "_id": "LCS3500MOD02",
+                  "name": "Designing the Data Model",
+                  "description": "Techniques for designing a robust and scalable data model.",
+                  "module": "MCS3500MOD"
+                },
+                {
+                  "_id": "LCS3500MOD03",
+                  "name": "Model Interaction with Database",
+                  "description": "Best practices for the Model component's interaction with databases and other data sources.",
+                  "module": "MCS3500MOD"
+                }
+              ]
+            },
+            {
+              "_id": "MCS3500CTRL",
+              "name": "MVC: Controller Component",
+              "description": "Study of the Controller component in the MVC architecture pattern.",
+              "course": "CS3500",
+              "lessons": [
+                {
+                  "_id": "LCS3500CTRL01",
+                  "name": "Role of the Controller",
+                  "description": "Defining the role of the Controller in the MVC pattern and its importance in handling user input and application logic.",
+                  "module": "MCS3500CTRL"
+                },
+                {
+                  "_id": "LCS3500CTRL02",
+                  "name": "Implementing Controllers",
+                  "description": "Strategies for implementing controllers in different programming frameworks.",
+                  "module": "MCS3500CTRL"
+                },
+                {
+                  "_id": "LCS3500CTRL03",
+                  "name": "Controller Testing",
+                  "description": "Approaches to testing the Controller layer effectively.",
+                  "module": "MCS3500CTRL"
+                }
+              ]
+            },
+            {
+              "_id": "MCS3500VIEW",
+              "name": "MVC: View Component",
+              "description": "Comprehensive look at the View component in the MVC architecture pattern.",
+              "course": "CS3500",
+              "lessons": [
+                {
+                  "_id": "LCS3500VIEW01",
+                  "name": "Principles of the View Component",
+                  "description": "Exploring the principles behind the View component and its role in displaying data to the user.",
+                  "module": "MCS3500VIEW"
+                },
+                {
+                  "_id": "LCS3500VIEW02",
+                  "name": "Creating User Interfaces",
+                  "description": "Techniques for creating user interfaces that interact seamlessly with the Model and Controller.",
+                  "module": "MCS3500VIEW"
+                },
+                {
+                  "_id": "LCS3500VIEW03",
+                  "name": "View Responsiveness and Accessibility",
+                  "description": "Ensuring that views are responsive and accessible across various devices and assistive technologies.",
+                  "module": "MCS3500VIEW"
+                }
+              ]
+            }
+          
+            ,
+            {
+                  "_id": "MCS3600MM",
+                  "name": "Memory Management in Operating Systems",
+                  "description": "Study of memory management strategies and mechanisms in operating systems.",
+                  "course": "CS3600",
+                  "lessons": [
+                    {
+                      "_id": "LCS3600MM01",
+                      "name": "Introduction to Memory Management",
+                      "description": "Overview of memory hierarchy, addressing, and the role of memory management in an OS.",
+                      "module": "MCS3600MM"
+                    },
+                    {
+                      "_id": "LCS3600MM02",
+                      "name": "Virtual Memory",
+                      "description": "Understanding virtual memory concepts including paging, segmentation, and page replacement algorithms.",
+                      "module": "MCS3600MM"
+                    },
+                    {
+                      "_id": "LCS3600MM03",
+                      "name": "Memory Allocation",
+                      "description": "Exploring dynamic memory allocation, garbage collection, and memory-related vulnerabilities.",
+                      "module": "MCS3600MM"
+                    }
+                  ]
+                },
+                {
+                  "_id": "MCS3600FS",
+                  "name": "File Systems and Storage",
+                  "description": "Examination of file system design and implementation in operating systems.",
+                  "course": "CS3600",
+                  "lessons": [
+                    {
+                      "_id": "LCS3600FS01",
+                      "name": "Fundamentals of File Systems",
+                      "description": "Fundamentals of file systems, including file structure, storage, and hierarchy.",
+                      "module": "MCS3600FS"
+                    },
+                    {
+                      "_id": "LCS3600FS02",
+                      "name": "File System Implementation",
+                      "description": "In-depth look at file system implementation, metadata, and directory management.",
+                      "module": "MCS3600FS"
+                    },
+                    {
+                      "_id": "LCS3600FS03",
+                      "name": "File System Reliability and Performance",
+                      "description": "Methods to ensure file system reliability and performance, such as journaling and defragmentation.",
+                      "module": "MCS3600FS"
+                    }
+                  ]
+                },
+                {
+                  "_id": "MCS3600PROC",
+                  "name": "Processes and Scheduling",
+                  "description": "In-depth analysis of process management and scheduling algorithms in operating systems.",
+                  "course": "CS3600",
+                  "lessons": [
+                    {
+                      "_id": "LCS3600PROC01",
+                      "name": "Process Abstraction and Lifecycle",
+                      "description": "Understanding the process abstraction, states in a process life cycle, and the context switch mechanism.",
+                      "module": "MCS3600PROC"
+                    },
+                    {
+                      "_id": "LCS3600PROC02",
+                      "name": "Concurrency and Synchronization",
+                      "description": "Concurrency principles, race conditions, and synchronization mechanisms like mutexes and semaphores.",
+                      "module": "MCS3600PROC"
+                    },
+                    {
+                      "_id": "LCS3600PROC03",
+                      "name": "CPU Scheduling Algorithms",
+                      "description": "Exploration of CPU scheduling algorithms, their criteria, and use cases.",
+                      "module": "MCS3600PROC"
+                    }
+                  ]
+                }
+              
+            ,
+            
+                {
+                  "_id": "MCS4500HTML",
+                  "name": "Understanding HTML",
+                  "description": "Comprehensive module on HyperText Markup Language (HTML), the backbone of web content structure.",
+                  "course": "CS4500",
+                  "lessons": [
+                    {
+                      "_id": "LCS4500HTML01",
+                      "name": "Basics of HTML",
+                      "description": "Introduction to HTML elements, tags, attributes, and document structure.",
+                      "module": "MCS4500HTML"
+                    },
+                    {
+                      "_id": "LCS4500HTML02",
+                      "name": "HTML Forms and Tables",
+                      "description": "In-depth coverage of creating forms for user input and organizing data with HTML tables.",
+                      "module": "MCS4500HTML"
+                    },
+                    {
+                      "_id": "LCS4500HTML03",
+                      "name": "Semantic HTML",
+                      "description": "Best practices for writing semantic HTML and accessibility considerations.",
+                      "module": "MCS4500HTML"
+                    }
+                  ]
+                },
+                {
+                  "_id": "MCS4500CSS",
+                  "name": "Mastering CSS",
+                  "description": "Module on Cascading Style Sheets (CSS), the styling language for the web.",
+                  "course": "CS4500",
+                  "lessons": [
+                    {
+                      "_id": "LCS4500CSS01",
+                      "name": "CSS Fundamentals",
+                      "description": "Foundational concepts of CSS including selectors, properties, and values.",
+                      "module": "MCS4500CSS"
+                    },
+                    {
+                      "_id": "LCS4500CSS02",
+                      "name": "Layouts and Positioning",
+                      "description": "Advanced CSS techniques for layouts such as Flexbox and Grid.",
+                      "module": "MCS4500CSS"
+                    },
+                    {
+                      "_id": "LCS4500CSS03",
+                      "name": "Responsive Design",
+                      "description": "Principles of responsive web design and media queries for cross-device compatibility.",
+                      "module": "MCS4500CSS"
+                    }
+                  ]
+                },
+                {
+                  "_id": "MCS4500JS",
+                  "name": "JavaScript Essentials",
+                  "description": "Module on JavaScript (JS), the scripting language for dynamic web content.",
+                  "course": "CS4500",
+                  "lessons": [
+                    {
+                      "_id": "LCS4500JS01",
+                      "name": "JavaScript Basics",
+                      "description": "Core JavaScript syntax and programming concepts.",
+                      "module": "MCS4500JS"
+                    },
+                    {
+                      "_id": "LCS4500JS02",
+                      "name": "DOM Manipulation",
+                      "description": "Techniques for selecting, modifying, and responding to events in the Document Object Model (DOM).",
+                      "module": "MCS4500JS"
+                    },
+                    {
+                      "_id": "LCS4500JS03",
+                      "name": "Asynchronous JavaScript",
+                      "description": "Understanding asynchronous operations in JavaScript using callbacks, promises, and async/await.",
+                      "module": "MCS4500JS"
+                    }
+                  ]
+                }
+              
+                ,
+                    {
+                      "_id": "MROBO2024MB",
+                      "name": "Mechanical Basics for Robotics",
+                      "description": "An introduction to the fundamental mechanical principles in robotics.",
+                      "course": "ROBO2024",
+                      "lessons": [
+                        {
+                          "_id": "LROBO2024MB01",
+                          "name": "Introduction to Robotics Mechanics",
+                          "description": "Overview of mechanical components used in robotics, including joints, links, and actuators.",
+                          "module": "MROBO2024MB"
+                        },
+                        {
+                          "_id": "LROBO2024MB02",
+                          "name": "Kinematics and Dynamics",
+                          "description": "Fundamentals of kinematics and dynamics in the context of robotic motion.",
+                          "module": "MROBO2024MB"
+                        },
+                        {
+                          "_id": "LROBO2024MB03",
+                          "name": "Material Selection",
+                          "description": "Criteria and considerations for selecting materials for robotic parts and structures.",
+                          "module": "MROBO2024MB"
+                        }
+                      ]
+                    },
+                    {
+                      "_id": "MROBO2024EB",
+                      "name": "Electrical Basics for Robotics",
+                      "description": "Foundational electrical concepts relevant to robotics.",
+                      "course": "ROBO2024",
+                      "lessons": [
+                        {
+                          "_id": "LROBO2024EB01",
+                          "name": "Circuit Theory and Components",
+                          "description": "Basic electrical circuit theory and components such as resistors, capacitors, and inductors.",
+                          "module": "MROBO2024EB"
+                        },
+                        {
+                          "_id": "LROBO2024EB02",
+                          "name": "Sensors and Actuators",
+                          "description": "Introduction to various sensors and actuators used in robotics and how they function.",
+                          "module": "MROBO2024EB"
+                        },
+                        {
+                          "_id": "LROBO2024EB03",
+                          "name": "Power Systems",
+                          "description": "Exploring power requirements and solutions for robotic systems, including batteries and power management.",
+                          "module": "MROBO2024EB"
+                        }
+                      ]
+                    },
+                    {
+                      "_id": "MROBO2024SIB",
+                      "name": "Software Integration Basics for Robotics",
+                      "description": "Overview of integrating software systems to achieve robotic functionality.",
+                      "course": "ROBO2024",
+                      "lessons": [
+                        {
+                          "_id": "LROBO2024SIB01",
+                          "name": "Robot Operating System (ROS)",
+                          "description": "Basics of ROS, the de-facto standard for robotic software development.",
+                          "module": "MROBO2024SIB"
+                        },
+                        {
+                          "_id": "LROBO2024SIB02",
+                          "name": "Software Architectures",
+                          "description": "Understanding various software architectures and patterns used in robotics.",
+                          "module": "MROBO2024SIB"
+                        },
+                        {
+                          "_id": "LROBO2024SIB03",
+                          "name": "Integration of Control Systems",
+                          "description": "Techniques for integrating control systems and algorithms with hardware components.",
+                          "module": "MROBO2024SIB"
+                        }
+                      ]
+                    }
+            ,
+            
+        
+                {
+                  "_id": "MCS1000QO",
+                  "name": "Query Organization in Databases",
+                  "description": "Exploring the principles and techniques for organizing and optimizing queries in database systems.",
+                  "course": "CS1000",
+                  "lessons": [
+                    {
+                      "_id": "LCS1000QO01",
+                      "name": "Introduction to SQL Queries",
+                      "description": "Basics of SQL, focusing on query structure, SELECT statements, and WHERE clauses.",
+                      "module": "MCS1000QO"
+                    },
+                    {
+                      "_id": "LCS1000QO02",
+                      "name": "Query Optimization Techniques",
+                      "description": "Advanced strategies for optimizing SQL queries for performance and efficiency.",
+                      "module": "MCS1000QO"
+                    },
+                    {
+                      "_id": "LCS1000QO03",
+                      "name": "Indexing and Query Execution Plans",
+                      "description": "Understanding indexing and the use of query execution plans to improve query performance.",
+                      "module": "MCS1000QO"
+                    }
+                  ]
+                },
+                {
+                  "_id": "MCS1000ERM",
+                  "name": "ER Modeling for Database Design",
+                  "description": "Comprehensive study of Entity-Relationship (ER) modeling as a tool for database design.",
+                  "course": "CS1000",
+                  "lessons": [
+                    {
+                      "_id": "LCS1000ERM01",
+                      "name": "Fundamentals of ER Modeling",
+                      "description": "Introduction to ER diagrams, entities, relationships, and key constraints.",
+                      "module": "MCS1000ERM"
+                    },
+                    {
+                      "_id": "LCS1000ERM02",
+                      "name": "Designing ER Diagrams",
+                      "description": "Practical techniques for designing ER diagrams to model complex data scenarios.",
+                      "module": "MCS1000ERM"
+                    },
+                    {
+                      "_id": "LCS1000ERM03",
+                      "name": "From ER Models to Relational Schemas",
+                      "description": "Converting ER models into relational database schemas, focusing on normalization and schema refinement.",
+                      "module": "MCS1000ERM"
+                    }
+                  ]
+                },
+                {
+                  "_id": "MCS1000FO",
+                  "name": "File Organization in Database Systems",
+                  "description": "Study of file organization techniques and their impact on database management and access speed.",
+                  "course": "CS1000",
+                  "lessons": [
+                    {
+                      "_id": "LCS1000FO01",
+                      "name": "Principles of File Organization",
+                      "description": "Overview of file organization concepts and the role of file systems in database management.",
+                      "module": "MCS1000FO"
+                    },
+                    {
+                      "_id": "LCS1000FO02",
+                      "name": "Sequential and Indexed File Organization",
+                      "description": "Exploring sequential and indexed file organization methods and their use cases.",
+                      "module": "MCS1000FO"
+                    },
+                    {
+                      "_id": "LCS1000FO03",
+                      "name": "Hashing and B-Trees",
+                      "description": "Detailed look at hashing and B-Trees for efficient data retrieval.",
+                      "module": "MCS1000FO"
+                    }
+                  ]
+                }
+              
+                       
+                                    
+      
+]
