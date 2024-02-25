@@ -1,0 +1,199 @@
+[
+    {
+      "_id": "A23221",
+      "title": "Logic Gates Design",
+      "course": "EECE2322",
+      "dueDate": "2024-02-28",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A23222",
+      "title": "Sequential Circuits Analysis",
+      "course": "EECE2322",
+      "dueDate": "2024-03-15",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A23223",
+      "title": "Finite State Machines Project",
+      "course": "EECE2322",
+      "dueDate": "2024-04-05",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A23224",
+      "title": "Verilog Programming Assignment",
+      "course": "EECE2322",
+      "dueDate": "2024-04-25",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A12341",
+      "title": "Descriptive Statistics Analysis",
+      "course": "MATH1234",
+      "dueDate": "2024-02-20",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A12342",
+      "title": "Probability Distributions",
+      "course": "MATH1234",
+      "dueDate": "2024-03-10",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A12343",
+      "title": "Hypothesis Testing Exercise",
+      "course": "MATH1234",
+      "dueDate": "2024-03-31",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A12344",
+      "title": "Linear Regression Project",
+      "course": "MATH1234",
+      "dueDate": "2024-04-20",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A35001",
+      "title": "Encapsulation and Inheritance Lab",
+      "course": "CS3500",
+      "dueDate": "2024-02-25",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A35002",
+      "title": "Polymorphism and Interfaces Exercise",
+      "course": "CS3500",
+      "dueDate": "2024-03-17",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A35003",
+      "title": "Design Patterns Case Study",
+      "course": "CS3500",
+      "dueDate": "2024-04-07",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A35004",
+      "title": "UML Diagrams Assignment",
+      "course": "CS3500",
+      "dueDate": "2024-04-27",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A36001",
+      "title": "Linux Commands and Scripts",
+      "course": "CS3600",
+      "dueDate": "2024-03-05",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A36002",
+      "title": "Shell Scripting Project",
+      "course": "CS3600",
+      "dueDate": "2024-03-25",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A36003",
+      "title": "System Administration Tasks",
+      "course": "CS3600",
+      "dueDate": "2024-04-15",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A36004",
+      "title": "Network Configuration Lab",
+      "course": "CS3600",
+      "dueDate": "2024-05-05",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A45001",
+      "title": "React Components and Props",
+      "course": "CS4500",
+      "dueDate": "2024-03-12",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A45002",
+      "title": "State Management in React",
+      "course": "CS4500",
+      "dueDate": "2024-04-02",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A45003",
+      "title": "React Router and SPA",
+      "course": "CS4500",
+      "dueDate": "2024-04-22",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A45004",
+      "title": "Building a React Application",
+      "course": "CS4500",
+      "dueDate": "2024-05-12",
+      "totalPoints": 200
+    },
+    {
+      "_id": "A20241",
+      "title": "Robot Kinematics Exercise",
+      "course": "ROBO2024",
+      "dueDate": "2024-03-20",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A20242",
+      "title": "Robotics Sensors and Actuators Lab",
+      "course": "ROBO2024",
+      "dueDate": "2024-04-10",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A20243",
+      "title": "Path Planning Algorithm",
+      "course": "ROBO2024",
+      "dueDate": "2024-05-01",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A20244",
+      "title": "Robotics Project: Design and Implementation",
+      "course": "ROBO2024",
+      "dueDate": "2024-05-20",
+      "totalPoints": 200
+    },
+    {
+      "_id": "A10001",
+      "title": "Relational Database Design",
+      "course": "CS1000",
+      "dueDate": "2024-03-28",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A10002",
+      "title": "SQL Queries Lab",
+      "course": "CS1000",
+      "dueDate": "2024-04-18",
+      "totalPoints": 100
+    },
+    {
+      "_id": "A10003",
+      "title": "Database Normalization Exercise",
+      "course": "CS1000",
+      "dueDate": "2024-05-08",
+      "totalPoints": 150
+    },
+    {
+      "_id": "A10004",
+      "title": "NoSQL vs SQL: Use Case Analysis",
+      "course": "CS1000",
+      "dueDate": "2024-05-29",
+      "totalPoints": 150
+    }
+  ]
+  

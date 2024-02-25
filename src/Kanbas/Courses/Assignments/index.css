@@ -1,0 +1,42 @@
+.assignment-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .left-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .search-input {
+    flex-grow: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: auto;
+  }
+  
+  .form-button {
+    padding: 8px 16px;
+    border: none;
+    background-color: #d9534f; /* Red color */
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+
+  
+  .form-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+    width: 200px; /* Makes the select box longer */
+  }
+  

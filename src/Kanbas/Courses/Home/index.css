@@ -1,0 +1,36 @@
+.status-bar {
+
+    padding: 16px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* This will create consistent spacing between items */
+    width : 300px;
+  }
+
+ 
+  
+  .status-bar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 16px; /* Consistent padding inside the buttons */
+    border: none;
+    background-color: white; /* Button background */
+    color: black; /* Text color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 4px; /* Rounded corners for the button */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    width: 100%; /* Ensure full width for alignment */
+    justify-content: start; /* Align items to the start */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .status-bar-item:hover {
+    background-color: #e8e8e8; /* Light gray background on hover */
+  }
+  
+  .status-bar-text {
+    margin-left: 8px; /* Space between icon and text */
+  }
+  
