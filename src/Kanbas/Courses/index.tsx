@@ -17,11 +17,11 @@ interface Course {
     image : string
   }
 
-function Courses() {
+function Courses({ courses }: { courses: any[]; }) {
   const { courseId } = useParams<{courseId: string}>();
 
 
-  const course = (courses as Course[]).find((course : Course) => course._id === courseId);
+  const course = courses.find((course : Course) => course._id === courseId);
   const location = useLocation();
 
    // Extract the current section from the URL path
