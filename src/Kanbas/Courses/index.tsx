@@ -7,23 +7,39 @@ import React from 'react';
 import Modules from "./Modules";
 import Home from "./Home";
 import Assignments from "./Assignments";
-
-interface Course {
-    _id: string;
-    name: string;
-    number : string;
-    startDate : string;
-    endDate : string; 
-    image : string
-  }
-
-function Courses({ courses }: { courses: any[]; }) {
-  const { courseId } = useParams<{courseId: string}>();
+import {useState, useEffect} from "react";
+import axios from "axios";
 
 
-  const course = courses.find((course : Course) => course._id === courseId);
+const API_BASE = process.env.REACT_APP_API_BASE;
+function Courses() {
+  const { courseId } = useParams();
+  const COURSES_API = `${API_BASE}/api/courses`;
+  const [course, setCourse] = useState<any>({ _id: "" });
+
+  const [isNavigationOpen, setIsNavigationOpen] = useState(true); // Added state for navigation open/close
+
+  const findCourseById = async (courseId?: string) => {
+    const response = await axios.get(
+      `${COURSES_API}/${courseId}`
+    );
+    setCourse(response.data);
+  };
+
+  useEffect(() => {
+    findCourseById(courseId);
+  }, [courseId]);
+
   const location = useLocation();
 
+
+   // Handle toggle of navigation
+   const toggleNavigation = () => {
+    setIsNavigationOpen(!isNavigationOpen); // Toggle the state
+  };
+
+
+  //NOT SURE IF THESE R STILL NECESSARY 
    // Extract the current section from the URL path
    const pathSections = location.pathname.split('/'); // This will create an array of path segments
 
@@ -33,9 +49,16 @@ const additionalSection = pathSections[5] && pathSections[5] !== "" ? pathSectio
 
   return (
     <div>
-      <h1><HiMiniBars3 /> Course {'>'} {course?._id} {'>'} {currentSection} {additionalSection ? ` > ${additionalSection}` : ""} </h1>
+      <h1>
+        <button onClick={toggleNavigation} className="btn-primary" style={{ background: 'none', border: 'none', outline: 'none' }}> 
+        <HiMiniBars3 /> 
+        </button>
+
       
-      <CourseNavigation />
+        Course {'>'} {course?._id} {'>'} {currentSection} {additionalSection ? ` > ${additionalSection}` : ""}
+         </h1>
+      
+      {isNavigationOpen && <CourseNavigation /> }
       <div>
         <div
           className="overflow-y-scroll position-fixed bottom-0 end-0"

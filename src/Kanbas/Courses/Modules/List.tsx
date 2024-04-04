@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { useSelector, useDispatch } from "react-redux";
 import {
@@ -6,24 +6,64 @@ import {
   deleteModule,
   updateModule,
   setModule,
+  setModules,
 } from "./reducer";
+
+import * as client from "./client";
+
 import { KanbasState } from "../../store";
+
+import { findModulesForCourse, createModule } from "./client";
+
+
 function ModuleList() {
+
+
+
   const { courseId } = useParams();
+
+  useEffect(() => {
+    findModulesForCourse(courseId)
+      .then((modules) =>
+        dispatch(setModules(modules))
+    );
+  }, [courseId]);
+
+
+
+
   const moduleList = useSelector((state: KanbasState) => 
     state.modulesReducer.modules);
   const module = useSelector((state: KanbasState) => 
     state.modulesReducer.module);
   const dispatch = useDispatch();
+
+  const handleAddModule = () => {
+    createModule(courseId, module).then((module) => {
+      dispatch(addModule(module));
+    });
+  };
+
+  const handleDeleteModule = (moduleId: string) => {
+    client.deleteModule(moduleId).then((status) => {
+      dispatch(deleteModule(moduleId));
+    });
+  };
+
+  const handleUpdateModule = async () => {
+    const status = await client.updateModule(module);
+    dispatch(updateModule(module));
+  };
+
   return (
     <ul className="list-group">
       <li className="list-group-item">
         
       <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}> {/* Added flex container */}
-          <button onClick={() => dispatch(addModule({ ...module, course: courseId }))}>
+          <button onClick={handleAddModule}>
             Add
           </button>
-          <button onClick={() => dispatch(updateModule(module))}>
+          <button onClick={handleUpdateModule}>
             Update
           </button>
           <input
@@ -53,7 +93,7 @@ function ModuleList() {
               Edit
             </button>
             <button
-              onClick={() => dispatch(deleteModule(module._id))}>
+              onClick={() => handleDeleteModule(module._id)}>
               Delete
             </button>
           </li>
